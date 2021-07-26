@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "lint": "remark . --quiet",
+    "lint": "remark . --quiet && npm run prettier:check",
     "prettier": "prettier --ignore-path=.gitignore .",
+    "prettier:check": "npm run prettier -- --check",
     "format": "npm run prettier -- --write"
   },
   "devDependencies": {

@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn install
-      - run: yarn run prettier --check
+      - run: npm run prettier:check
