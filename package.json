@@ -1,4 +1,5 @@
 {
+  "private": true,
   "scripts": {
     "lint": "remark . --quiet && npm run prettier:check",
     "prettier": "prettier --ignore-path=.gitignore .",
