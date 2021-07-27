@@ -66,8 +66,8 @@ linter:
 
 For example, if you have a file named `hello` including the following content, Sider analyzes it.
 
-```sh
-#!/bin/sh
+```bash
+#!/bin/bash
 
 echo "This script's filename is `hello`."
 ```

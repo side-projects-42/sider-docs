@@ -52,6 +52,22 @@ rules:
     pass:
       - "https://foo/bar"
 
+  - id: sider.sider-docs.shell-code-block
+    pattern:
+      regexp: |
+        ```(sh|shell)
+    glob: "**/*.md"
+    message: |
+      Use `bash` for a shell-script code block. Both GitHub and Docusaurus supports it.
+    fail:
+      - |
+        ```sh
+      - |
+        ```shell
+    pass:
+      - |
+        ```bash
+
 import:
   - https://github.com/sider/goodcheck-rules/archive/refs/tags/v0.0.3.tar.gz
 

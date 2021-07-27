@@ -33,7 +33,7 @@ Let's set up your Sider Enterprise for a single node with these steps:
 
 Create `/etc/sider/env` with content like this, and change the file permission accessible only to be specific users. Be careful to make sure your GitHub App configurations satisfy the settings on GitHub Enterprise Server.
 
-```sh
+```bash
 RAILS_ENV=onprem
 SECRET_KEY_BASE={your_credential}
 DATABASE_URL=mysql2://mysql:3306/sideci
@@ -123,14 +123,14 @@ volumes:
 
 Before running the services, the database migration is necessary:
 
-```sh
+```bash
 docker-compose --file /etc/sider/docker-compose.yml up --detach mysql
 docker-compose --file /etc/sider/docker-compose.yml run sideci_worker bundle exec rails db:setup
 ```
 
 After that, the services should be up and running with the command:
 
-```sh
+```bash
 docker-compose --file /etc/sider/docker-compose.yml up --detach --scale sideci_worker=2
 ```
 
