@@ -50,7 +50,7 @@ Sider Enterprise is configured with environment variables. We recommend creating
 
 This is an example of the environment variables file located in `/etc/sider-env`. Of course, you can put the file anywhere, but make sure this file should be readable only to specific users.
 
-```bash:/etc/sider-env
+```bash
 RAILS_ENV=onprem
 SECRET_KEY_BASE=topsecret...
 DATABASE_URL=mysql2://mysql.example.com:3306/sideci
