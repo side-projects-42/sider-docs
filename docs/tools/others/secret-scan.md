@@ -1,16 +1,10 @@
 ---
 id: secret-scan
 title: Secret Scan
-sidebar_label: Secret Scan (beta)
+sidebar_label: Secret Scan
 ---
 
 # Secret Scan
-
-:::note
-
-This is **BETA**. The behavior of this tool might change.
-
-:::
 
 **Secret Scan** can detect secrets committed in your repository, for example:
 
