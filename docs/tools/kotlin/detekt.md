@@ -2,12 +2,15 @@
 id: detekt
 title: detekt
 sidebar_label: detekt (beta)
-hide_title: true
 ---
 
 # detekt
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Supported Version | Language | Website                         |
 | ----------------- | -------- | ------------------------------- |

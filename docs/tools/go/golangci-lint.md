@@ -2,7 +2,6 @@
 id: golangci-lint
 title: GolangCI-Lint
 sidebar_label: GolangCI-Lint
-hide_title: true
 ---
 
 # GolangCI-Lint

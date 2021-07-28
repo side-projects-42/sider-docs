@@ -2,12 +2,15 @@
 id: govet
 title: go vet
 sidebar_label: go vet (removed)
-hide_title: true
 ---
 
 # go vet
 
-> **REMOVED**: Sider has removed the support of go vet on **May 31, 2020**. Please use [GolangCI-Lint](golangci-lint.md) instead.
+:::danger
+
+Sider has removed the support of go vet on **May 31, 2020**. Please use [GolangCI-Lint](golangci-lint.md) instead.
+
+:::
 
 | Language | Website                    |
 | -------- | -------------------------- |

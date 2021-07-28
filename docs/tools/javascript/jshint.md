@@ -2,7 +2,6 @@
 id: jshint
 title: JSHint
 sidebar_label: JSHint
-hide_title: true
 ---
 
 # JSHint

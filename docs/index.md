@@ -1,7 +1,7 @@
 ---
-title: Home
+id: index
+slug: /
 sidebar_label: Home
-hide_title: true
 ---
 
 # Sider Documentation
@@ -86,11 +86,7 @@ This section has documents about analysis tools which Sider supports. We have an
 - [cpplint](./tools/cplusplus/cpplint.md)
 - [Clang-Tidy](./tools/cplusplus/clang-tidy.md)
 
-<!-- prettier-ignore-start -->
-
-### C\#
-
-<!-- prettier-ignore-end -->
+### C#
 
 - [FxCop](./tools/csharp/fxcop.md)
 

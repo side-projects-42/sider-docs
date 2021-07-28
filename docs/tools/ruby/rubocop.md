@@ -2,7 +2,6 @@
 id: rubocop
 title: RuboCop
 sidebar_label: RuboCop
-hide_title: true
 ---
 
 # RuboCop
@@ -63,7 +62,11 @@ If confirming whether a cop is _safe_ or not, see the [cops' document](https://d
 
 ### `rails`
 
-> **DEPRECATED**: The option is ignored when using the version `0.72.0` or later, and will be removed in the future.
-> Use [`rubocop-rails`](https://github.com/rubocop/rubocop-rails) instead.
+:::caution
+
+The option is ignored when using the version `0.72.0` or later, and will be removed in the future.
+Use [`rubocop-rails`](https://github.com/rubocop/rubocop-rails) instead.
+
+:::
 
 This option allows you to select whether using Rails cops or not. If omitted, Sider automatically determines it.

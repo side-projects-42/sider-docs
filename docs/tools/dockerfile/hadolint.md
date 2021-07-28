@@ -2,7 +2,6 @@
 id: hadolint
 title: hadolint
 sidebar_label: hadolint
-hide_title: true
 ---
 
 # hadolint

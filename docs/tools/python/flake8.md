@@ -2,7 +2,6 @@
 id: flake8
 title: Flake8
 sidebar_label: Flake8
-hide_title: true
 ---
 
 # Flake8

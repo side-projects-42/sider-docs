@@ -2,12 +2,15 @@
 id: pylint
 title: Pylint
 sidebar_label: Pylint (beta)
-hide_title: true
 ---
 
 # Pylint
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Supported Version | Language | Website                  |
 | ----------------- | -------- | ------------------------ |

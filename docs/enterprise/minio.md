@@ -2,7 +2,6 @@
 id: minio
 title: MinIO
 sidebar_label: MinIO
-hide_title: true
 ---
 
 # MinIO

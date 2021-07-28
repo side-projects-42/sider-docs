@@ -2,7 +2,6 @@
 id: repository-settings
 title: Repository Settings
 sidebar_label: Repository Settings
-hide_title: true
 ---
 
 # Repository Settings
@@ -13,8 +12,8 @@ You must have write permission to the repository to change these settings.
 
 ## Introduction Video
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/D7e8YZDrqQY" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/D7e8YZDrqQY" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Tools
@@ -70,7 +69,11 @@ If you enable **"On analysis failures"**, Sider will notify analysis failures du
 
 ## Admin-only Settings
 
-> You must have admin permissions to see this section.
+:::note
+
+You must have admin permissions to see this section.
+
+:::
 
 ![Admin](../assets/project-admin.png)
 

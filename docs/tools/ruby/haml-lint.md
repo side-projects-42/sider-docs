@@ -2,7 +2,6 @@
 id: haml-lint
 title: HAML-Lint
 sidebar_label: HAML-Lint
-hide_title: true
 ---
 
 # HAML-Lint
@@ -66,7 +65,11 @@ This option allows you to specify files or directories you want to analyze. Glob
 
 ### `file`
 
-> **DEPRECATED**: This option is deprecated. Use the [`target`](#target) option instead.
+:::caution
+
+This option is **deprecated**. Use the [`target`](#target) option instead.
+
+:::
 
 ### `include_linter`
 

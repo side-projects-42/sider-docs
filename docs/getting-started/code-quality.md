@@ -2,7 +2,6 @@
 id: code-quality
 title: Code Quality
 sidebar_label: Code Quality
-hide_title: true
 ---
 
 # Code Quality

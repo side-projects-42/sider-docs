@@ -2,7 +2,6 @@
 id: cppcheck
 title: Cppcheck
 sidebar_label: Cppcheck
-hide_title: true
 ---
 
 # Cppcheck

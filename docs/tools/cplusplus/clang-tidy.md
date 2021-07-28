@@ -2,12 +2,15 @@
 id: clang-tidy
 title: Clang-Tidy
 sidebar_label: Clang-Tidy (beta)
-hide_title: true
 ---
 
 # Clang-Tidy
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Supported Version | Language | Website                                 |
 | ----------------- | -------- | --------------------------------------- |

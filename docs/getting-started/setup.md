@@ -2,7 +2,6 @@
 id: setup
 title: Setting up Sider
 sidebar_label: Setting up Sider
-hide_title: true
 ---
 
 # Setting up Sider
@@ -50,6 +49,6 @@ You will be able to fine-tune your project's configuration at any time after the
 
 ## Video Tutorial
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/bCfgdf4cjcU" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/bCfgdf4cjcU" frameBorder="0" allowFullScreen></iframe>
 </div>

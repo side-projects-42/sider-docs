@@ -2,12 +2,15 @@
 id: pmd-cpd
 title: PMD CPD
 sidebar_label: PMD CPD (beta)
-hide_title: true
 ---
 
 # PMD CPD
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Supported Version | Language              | Website               |
 | ----------------- | --------------------- | --------------------- |

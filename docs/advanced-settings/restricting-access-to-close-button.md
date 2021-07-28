@@ -2,7 +2,6 @@
 id: restricting-access-to-close-button
 title: Restricting access to Close button
 sidebar_label: Restricting access to Close button
-hide_title: true
 ---
 
 # Restricting access to Close button

@@ -2,13 +2,16 @@
 id: scss-lint
 title: SCSS-Lint
 sidebar_label: SCSS-Lint (deprecated)
-hide_title: true
 ---
 
 # SCSS-Lint
 
-> **DEPRECATED**: Sider will no longer support SCSS-Lint because SCSS-Lint will stop its maintenance. We recommend [stylelint](https://stylelint.io) and [stylelint-scss](https://github.com/kristerkari/stylelint-scss) as an alternative.
-> For more details, see the [announce](https://github.com/sds/scss-lint#notice-consider-other-tools-before-adopting-scss-lint).
+:::caution
+
+Sider will no longer support SCSS-Lint because SCSS-Lint will stop its maintenance. We recommend [stylelint](https://stylelint.io) and [stylelint-scss](https://github.com/kristerkari/stylelint-scss) as an alternative.
+For more details, see the [announce](https://github.com/sds/scss-lint#notice-consider-other-tools-before-adopting-scss-lint).
+
+:::
 
 | Supported Version | Language                      | Website                          |
 | ----------------- | ----------------------------- | -------------------------------- |

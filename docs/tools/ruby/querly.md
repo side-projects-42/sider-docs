@@ -2,7 +2,6 @@
 id: querly
 title: Querly
 sidebar_label: Querly
-hide_title: true
 ---
 
 # Querly
@@ -25,8 +24,8 @@ Visit the Querly project page for more information about writing rules:
 - [Examples](https://github.com/soutaro/querly/blob/HEAD/manual/examples.md)
 - [Patterns](https://github.com/soutaro/querly/blob/HEAD/manual/patterns.md)
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/WtHmNuWJzPA" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/WtHmNuWJzPA" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Configuration

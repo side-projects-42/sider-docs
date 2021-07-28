@@ -2,7 +2,6 @@
 id: billing-and-plans
 title: Billing and Plans
 sidebar_label: Billing and Plans
-hide_title: true
 ---
 
 # Billing and Plans
@@ -11,9 +10,9 @@ hide_title: true
 
 Sider's plan depends on the number of users who are assigned seats. The seat-assigned users can check analysis results, close/reopen issues, post comments to the pull requests.
 
-| Price                                         | Public Repositories | Private Repositories |
-| :-------------------------------------------- | :-----------------: | :------------------: |
-| \$12 USD/month (or ¥1,500 JPY/month) per seat |      Unlimited      |      Unlimited       |
+| Price                                        | Public Repositories | Private Repositories |
+| :------------------------------------------- | :-----------------: | :------------------: |
+| $12 USD/month (or ¥1,500 JPY/month) per seat |      Unlimited      |      Unlimited       |
 
 You can upgrade the plan and increase/decrease seats in the organization settings page.
 

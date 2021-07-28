@@ -2,7 +2,6 @@
 id: installation
 title: Sider Enterprise Installation
 sidebar_label: Installation
-hide_title: true
 ---
 
 # Installation
@@ -41,8 +40,12 @@ docker pull docker.sider.review/sideci_onprem:{tag}
 docker logout docker.sider.review
 ```
 
-> If your organization requires your machine to access via an HTTP proxy server, you should configure Docker to use it.
-> See [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/) for more details.
+:::note
+
+If your organization requires your machine to access via an HTTP proxy server, you should configure Docker to use it.
+See [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/) for more details.
+
+:::
 
 ## Prepare Environment Variables for Sider Enterprise
 

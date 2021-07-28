@@ -2,7 +2,6 @@
 id: index
 title: Sider Enterprise Releases
 sidebar_label: Overview
-hide_title: true
 ---
 
 # Sider Enterprise Releases

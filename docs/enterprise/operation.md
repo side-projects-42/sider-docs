@@ -2,7 +2,6 @@
 id: operation
 title: Operation
 sidebar_label: Operation
-hide_title: true
 ---
 
 # Operation
@@ -70,7 +69,11 @@ docker run --env-file={env_file} docker.sider.review/sideci_onprem:{tag} \
 
 Replace `{username}` with a GitHub login name.
 
-> The specified `{username}` must exist on the Sider database. Make sure the user sign up on Sider in advance.
+:::note
+
+The specified `{username}` must exist on the Sider database. Make sure the user sign up on Sider in advance.
+
+:::
 
 ## Register users on Sider manually
 

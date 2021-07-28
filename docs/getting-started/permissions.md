@@ -2,7 +2,6 @@
 id: permissions
 title: Permissions
 sidebar_label: Permissions
-hide_title: true
 ---
 
 # Permissions

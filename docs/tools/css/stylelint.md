@@ -2,7 +2,6 @@
 id: stylelint
 title: stylelint
 sidebar_label: stylelint
-hide_title: true
 ---
 
 # stylelint

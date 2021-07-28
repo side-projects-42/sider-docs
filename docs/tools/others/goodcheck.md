@@ -2,7 +2,6 @@
 id: goodcheck
 title: Goodcheck
 sidebar_label: Goodcheck
-hide_title: true
 ---
 
 # Goodcheck
@@ -23,8 +22,8 @@ Visit the pages below for more information about writing rules:
 - [Goodcheck project page](https://github.com/sider/goodcheck#goodcheckyml)
 - [How to make custom rules](../../custom-rules/goodcheck.md)
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/8Zpm2gguE1M" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/8Zpm2gguE1M" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Configuration

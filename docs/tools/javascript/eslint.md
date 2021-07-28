@@ -2,7 +2,6 @@
 id: eslint
 title: ESLint
 sidebar_label: ESLint
-hide_title: true
 ---
 
 # ESLint
@@ -89,7 +88,11 @@ linter:
 
 ### `dir`
 
-> **DEPRECATED**: This option is deprecated. Use the [`target`](#target) option instead.
+:::caution
+
+This option is **deprecated**. Use the [`target`](#target) option instead.
+
+:::
 
 This is an alias for `target`.
 

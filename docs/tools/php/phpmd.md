@@ -2,7 +2,6 @@
 id: phpmd
 title: PHPMD
 sidebar_label: PHPMD
-hide_title: true
 ---
 
 # PHPMD

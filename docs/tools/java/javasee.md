@@ -2,7 +2,6 @@
 id: javasee
 title: JavaSee
 sidebar_label: JavaSee
-hide_title: true
 ---
 
 # JavaSee

@@ -2,12 +2,15 @@
 id: fxcop
 title: FxCop
 sidebar_label: FxCop (beta)
-hide_title: true
 ---
 
 # FxCop
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Supported Version | Language | Website                                                                                                   |
 | ----------------- | -------- | --------------------------------------------------------------------------------------------------------- |

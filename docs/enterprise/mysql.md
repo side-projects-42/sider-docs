@@ -2,7 +2,6 @@
 id: mysql
 title: MySQL
 sidebar_label: MySQL
-hide_title: true
 ---
 
 # MySQL

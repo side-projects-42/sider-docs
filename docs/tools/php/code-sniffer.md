@@ -2,7 +2,6 @@
 id: code-sniffer
 title: PHP_CodeSniffer
 sidebar_label: PHP_CodeSniffer
-hide_title: true
 ---
 
 # PHP_CodeSniffer

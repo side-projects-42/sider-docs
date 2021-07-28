@@ -2,7 +2,6 @@
 id: remark-lint
 title: remark-lint
 sidebar_label: remark-lint
-hide_title: true
 ---
 
 # remark-lint

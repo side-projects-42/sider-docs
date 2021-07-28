@@ -2,12 +2,15 @@
 id: languagetool
 title: LanguageTool
 sidebar_label: LanguageTool (beta)
-hide_title: true
 ---
 
 # LanguageTool
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Supported Version | Language          | Website                  |
 | ----------------- | ----------------- | ------------------------ |

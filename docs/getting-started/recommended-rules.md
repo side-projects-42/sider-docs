@@ -2,7 +2,6 @@
 id: recommended-rules
 title: Recommended Ruleset
 sidebar_label: Recommended Ruleset
-hide_title: true
 ---
 
 # Recommended Ruleset

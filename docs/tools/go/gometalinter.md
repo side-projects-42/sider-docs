@@ -2,12 +2,15 @@
 id: gometalinter
 title: Go Meta Linter
 sidebar_label: Go Meta Linter (removed)
-hide_title: true
 ---
 
 # Go Meta Linter
 
-> **REMOVED**: Sider has removed the support of Go Meta Linter on **May 31, 2020**. Please use [GolangCI-Lint](golangci-lint.md) instead.
+:::danger
+
+Sider has removed the support of Go Meta Linter on **May 31, 2020**. Please use [GolangCI-Lint](golangci-lint.md) instead.
+
+:::
 
 | Supported Version | Language | Website                                    |
 | ----------------- | -------- | ------------------------------------------ |
@@ -29,7 +32,11 @@ If `glide.yaml` contains a dependency to a library in a private repository, plea
 
 - [Use other private repositories for analysis](../../advanced-settings/private-dependencies.md)
 
-> Note that need to set the [`import_path`](#import_path) option in `sider.yml` when you would like to run `glide install` on analysis.
+:::note
+
+Note that need to set the [`import_path`](#import_path) option in `sider.yml` when you would like to run `glide install` on analysis.
+
+:::
 
 ## Default Configuration
 

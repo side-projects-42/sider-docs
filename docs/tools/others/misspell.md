@@ -2,7 +2,6 @@
 id: misspell
 title: Misspell
 sidebar_label: Misspell
-hide_title: true
 ---
 
 # Misspell
@@ -52,7 +51,11 @@ You can use several options to more comfortable analysis to your project.
 
 This option allows you to specify files or directories to analyze.
 
-> **DEPRECATED**: `targets` option has been deprecated. Use `target` instead.
+:::caution
+
+`targets` option is **deprecated**. Use `target` instead.
+
+:::
 
 ### `exclude`
 

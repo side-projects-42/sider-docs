@@ -2,7 +2,6 @@
 id: index
 title: Sider Enterprise Outline
 sidebar_label: Outline
-hide_title: true
 ---
 
 # Sider Enterprise

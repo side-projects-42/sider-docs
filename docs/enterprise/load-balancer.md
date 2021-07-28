@@ -2,7 +2,6 @@
 id: load-balancer
 title: Load Balancer
 sidebar_label: Load Balancer
-hide_title: true
 ---
 
 # Load Balancer

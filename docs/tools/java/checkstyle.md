@@ -2,7 +2,6 @@
 id: checkstyle
 title: Checkstyle
 sidebar_label: Checkstyle
-hide_title: true
 ---
 
 # Checkstyle

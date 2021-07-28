@@ -2,7 +2,6 @@
 id: cpplint
 title: cpplint
 sidebar_label: cpplint
-hide_title: true
 ---
 
 # cpplint

@@ -1,0 +1,38 @@
+:root {
+  --ifm-navbar-background-color: var(--ifm-color-emphasis-900);
+  --ifm-navbar-link-color: var(--ifm-color-white);
+  --ifm-footer-background-color: var(--ifm-color-emphasis-900);
+  --ifm-footer-color: var(--ifm-color-secondary-dark);
+  --ifm-color-warning: #f0a903;
+}
+
+html[data-theme="dark"] {
+  --ifm-navbar-background-color: var(--ifm-color-emphasis-0);
+  --ifm-footer-background-color: var(--ifm-color-emphasis-0);
+}
+
+/* See https://jameshfisher.com/2017/08/30/how-do-i-make-a-full-width-iframe/ */
+.Video {
+  position: relative;
+  padding-top: 56.25%;
+}
+.Video > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.NewsDate {
+  color: var(--ifm-color-secondary-darkest);
+  font-size: 0.9em;
+  font-style: italic;
+  display: block;
+  margin-bottom: var(--ifm-spacing-vertical);
+}
+
+img[src^="https://img.youtube.com/"]
+{
+  border: 2px solid var(--ifm-color-primary-dark);
+}

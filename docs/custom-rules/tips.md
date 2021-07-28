@@ -2,7 +2,6 @@
 id: tips
 title: Custom Rules Tips & Tricks
 sidebar_label: Tips & Tricks
-hide_title: true
 ---
 
 # Custom Rules Tips & Tricks

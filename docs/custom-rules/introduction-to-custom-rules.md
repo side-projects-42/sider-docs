@@ -2,7 +2,6 @@
 id: introduction-to-custom-rules
 title: Introduction to Custom Rules
 sidebar_label: Intro to Custom Rules
-hide_title: true
 ---
 
 # Introduction to Custom Rules
@@ -100,6 +99,6 @@ In this example, Phinder will match any PHP expression with a `import_records` c
 
 ## Explainer Video
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/jU4xQ1R0MIU" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/jU4xQ1R0MIU" frameBorder="0" allowFullScreen></iframe>
 </div>

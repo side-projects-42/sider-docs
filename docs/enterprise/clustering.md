@@ -2,7 +2,6 @@
 id: clustering
 title: Clustering
 sidebar_label: Clustering
-hide_title: true
 ---
 
 # Clustering
@@ -21,7 +20,11 @@ The processes of Runners will so enormously consume CPU and memory resources tha
 
 In addition to extracting Runners, you should consider the number of containers on **sideci**'s nodes. It depends on the number of analyses, but at least, **sideci-web** should run on `2` containers, and **sideci-worker** should run on `6` containers. You can start such numbers of containers just executing [commands](./operation.md#how-to-start-services) at the same count. If you use [Docker Compose](https://docs.docker.com/compose/), you can use `docker-compose up --scale`.
 
-> Each **sideci-web** container must bind to the different host port because of the constraint of your operating system. So, you should configure the backends for each port number on your load balancer. For example, your load balancer should forward requests to the containers run with `docker run -p 192.168.0.13:3000:3000 IMAGE` and `docker run -p 192.168.0.13:3001:3000 IMAGE` via `192.168.0.13:3000` and `192.168.0.13:3001`.
+:::note
+
+Each **sideci-web** container must bind to the different host port because of the constraint of your operating system. So, you should configure the backends for each port number on your load balancer. For example, your load balancer should forward requests to the containers run with `docker run -p 192.168.0.13:3000:3000 IMAGE` and `docker run -p 192.168.0.13:3001:3000 IMAGE` via `192.168.0.13:3000` and `192.168.0.13:3001`.
+
+:::
 
 ## Scaling
 

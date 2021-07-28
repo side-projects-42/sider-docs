@@ -2,7 +2,6 @@
 id: dashboard
 title: Dashboard Overview
 sidebar_label: Dashboard Overview
-hide_title: true
 ---
 
 # Dashboard Overview
@@ -11,8 +10,8 @@ The Dashboard page gives an overview of the latest pull requests, last active re
 
 ## Introduction Video
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/TIQ61lCm6nI" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/TIQ61lCm6nI" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Latest Analysed Pull Requests

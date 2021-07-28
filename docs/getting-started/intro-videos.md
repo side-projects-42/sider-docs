@@ -2,7 +2,6 @@
 id: intro-videos
 title: Introductory Videos
 sidebar_label: Intro Videos
-hide_title: true
 ---
 
 # Introductory Videos

@@ -2,14 +2,17 @@
 id: config
 title: Sider Enterprise Configuration
 sidebar_label: Configuration
-hide_title: true
 ---
 
 # Sider Enterprise Configuration
 
 Sider Enterprise depends on other services, such as MySQL, so its configuration is important to ensure working well. This document describes the details about Sider Enterprise configurations.
 
-> `{tag}` on this page is a Docker image tag for Sider Enterprise. Please replace it with the actual value.
+:::note
+
+`{tag}` on this page is a Docker image tag for Sider Enterprise. Please replace it with the actual value.
+
+:::
 
 ## Core parameters
 
@@ -157,9 +160,9 @@ Sider Enterprise supports sending emails. You can get error notifications via Em
 
 Sider Enterprise can detect events that happened in the server and updates its content automatically. End-users don't have to reload their browser to update their pages. Sider Enterprise uses two mechanisms to implement this: [Pusher](https://pusher.com) and polling.
 
-If you want to use Pusher, sign up to Pusher and set up the PUSHER\_\* variables below.
+If you want to use Pusher, sign up to Pusher and set up the `PUSHER_*` variables below.
 
-If you leave the PUSHER\_\* variables empty, Pusher will be disabled, and Sider Enterprise will work only with polling. You can configure the polling interval with `FRONTEND_POLLING_INTERVAL`: fine-tune the value for both UI responsiveness and the server load.
+If you leave the `PUSHER_*` variables empty, Pusher will be disabled, and Sider Enterprise will work only with polling. You can configure the polling interval with `FRONTEND_POLLING_INTERVAL`: fine-tune the value for both UI responsiveness and the server load.
 
 - `PUSHER_API_ID` - (Optional) The Pusher API ID.
 

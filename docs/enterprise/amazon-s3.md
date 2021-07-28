@@ -2,7 +2,6 @@
 id: amazon-s3
 title: Amazon S3
 sidebar_label: Amazon S3
-hide_title: true
 ---
 
 # Amazon S3

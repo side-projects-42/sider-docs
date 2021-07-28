@@ -2,7 +2,6 @@
 id: goodcheck
 title: Goodcheck
 sidebar_label: Goodcheck
-hide_title: true
 ---
 
 # Goodcheck
@@ -56,7 +55,11 @@ rules:
 
 ### Rule: Sign in
 
-> Warning: This rule needs customization.
+:::note
+
+This rule needs customization.
+
+:::
 
 Keep wording consistent to provide a clear experience for users. In this example, the use of Log in or Log out would prompt the use of sign in / sign out instead.
 
@@ -88,7 +91,11 @@ rules:
 
 ### Rule: mixin
 
-> Warning: This rule needs customization.
+:::note
+
+This rule needs customization.
+
+:::
 
 A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. In this example, it creates a warning when the color pattern is used and suggests using a mixin instead.
 
@@ -113,8 +120,8 @@ rules:
 
 ## Goodcheck video tutorial
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/8Zpm2gguE1M" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/8Zpm2gguE1M" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Links

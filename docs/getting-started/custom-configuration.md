@@ -2,7 +2,6 @@
 id: custom-configuration
 title: Custom Analysis Configuration
 sidebar_label: Custom Analysis Configuration
-hide_title: true
 ---
 
 # Custom Analysis Configuration
@@ -10,7 +9,11 @@ hide_title: true
 Usually, you don't need to do any special configuration for Sider to start analyzing your code.
 However, Sider also offers advanced settings for special cases via the configuration file named `sider.yml` (learn more about [YAML](https://yaml.org/)).
 
-> `sideci.yml` is still supported for the backward compatibility, but it will be unsupported in the future. Please rename it to `sider.yml` as possible.
+:::note
+
+`sideci.yml` is still supported for the backward compatibility, but it will be unsupported in the future. Please rename it to `sider.yml` as possible.
+
+:::
 
 ## Configuration file
 
@@ -299,11 +302,19 @@ Please use `dependencies` instead of `gems` because it will be **deprecated**.
 
 ## `linter.<analyzer_id>.jvm_deps`
 
-> **DEPRECATED**: This option is deprecated. Use the [`linter.<analyzer_id>.dependencies`](#for-gradle) option instead.
+:::caution
+
+This option is **deprecated**. Use the [`linter.<analyzer_id>.dependencies`](#for-gradle) option instead.
+
+:::
 
 ## `linter.<analyzer_id>.apt`
 
-> **DEPRECATED**: This option is deprecated. Use the [`linter.<analyzer_id>.dependencies`](#for-apt) option instead.
+:::caution
+
+This option is **deprecated**. Use the [`linter.<analyzer_id>.dependencies`](#for-apt) option instead.
+
+:::
 
 ## `linter.<analyzer_id>.include-path`
 
@@ -366,10 +377,14 @@ branches:
 
 With the above setting, Sider will ignore `main`, `development` and `another_branch` branches when these branches (pull requests) are updated or opened. That is, even if these branches have any changes, Sider will not send commit status and not review them.
 
-> If Sider is enabled to make status checks required on GitHub, you cannot merge a branch because Sider will not send the commit status to GitHub.
-> In this case, you need to disable the check status setting on your GitHub repository page.
+:::note
 
-> If you want to know more details about this GitHub setting, read the GitHub documentation; [About required status checks](https://help.github.com/articles/about-required-status-checks/) and [Enabling required status check](https://help.github.com/articles/enabling-required-status-checks/).
+If Sider is enabled to make status checks required on GitHub, you cannot merge a branch because Sider will not send the commit status to GitHub.
+In this case, you need to disable the check status setting on your GitHub repository page.
+
+If you want to know more details about this GitHub setting, read the GitHub documentation; [About required status checks](https://help.github.com/articles/about-required-status-checks/) and [Enabling required status check](https://help.github.com/articles/enabling-required-status-checks/).
+
+:::
 
 You can also use regular expressions as the `exclude` pattern:
 

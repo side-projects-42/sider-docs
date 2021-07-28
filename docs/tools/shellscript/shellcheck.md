@@ -2,7 +2,6 @@
 id: shellcheck
 title: ShellCheck
 sidebar_label: ShellCheck
-hide_title: true
 ---
 
 # ShellCheck

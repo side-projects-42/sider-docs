@@ -2,7 +2,6 @@
 id: tyscan
 title: TyScan
 sidebar_label: TyScan
-hide_title: true
 ---
 
 # TyScan

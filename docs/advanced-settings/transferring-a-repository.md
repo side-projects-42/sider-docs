@@ -2,7 +2,6 @@
 id: transferring-a-repository
 title: Transferring a repository
 sidebar_label: Transferring a repository
-hide_title: true
 ---
 
 # Transferring a repository

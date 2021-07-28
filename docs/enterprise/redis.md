@@ -2,7 +2,6 @@
 id: redis
 title: Redis
 sidebar_label: Redis
-hide_title: true
 ---
 
 # Redis

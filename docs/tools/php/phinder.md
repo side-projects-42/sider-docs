@@ -2,7 +2,6 @@
 id: phinder
 title: Phinder
 sidebar_label: Phinder
-hide_title: true
 ---
 
 # Phinder
@@ -18,8 +17,8 @@ hide_title: true
 To start using Phinder, enable it in your [repository settings](../../getting-started/repository-settings.md) and put a `phinder.yml` config file in your repository.
 Visit the project page on GitHub to see a [sample `phinder.yml`](https://github.com/sider/phinder/blob/HEAD/sample/phinder.yml):
 
-<div class="Video">
-  <iframe class="Video__iframe" src="https://www.youtube.com/embed/ErHtinxR3ns" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/ErHtinxR3ns" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Configuration

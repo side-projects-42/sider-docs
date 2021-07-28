@@ -2,7 +2,6 @@
 id: single-node-with-docker-compose
 title: Single Node with Docker Compose
 sidebar_label: Single Node with Docker Compose
-hide_title: true
 ---
 
 # Single Node with Docker Compose

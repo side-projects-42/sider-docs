@@ -2,12 +2,15 @@
 id: slim-lint
 title: Slim-Lint
 sidebar_label: Slim-Lint (beta)
-hide_title: true
 ---
 
 # Slim-Lint
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Version                   | Language    | Website                          |
 | ------------------------- | ----------- | -------------------------------- |

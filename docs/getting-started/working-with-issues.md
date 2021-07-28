@@ -2,7 +2,6 @@
 id: working-with-issues
 title: Working with Issues
 sidebar_label: Working with Issues
-hide_title: true
 ---
 
 # Working with Issues
@@ -12,16 +11,16 @@ All this can be done from the pull request’s analysis results page in Sider. T
 
 ## Introduction Video
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/A2CbtgI8_DY" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/A2CbtgI8_DY" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Fixing Issues
 
 When there is an issue that needs to be fixed, make the changes and commit them to your pull request. Sider will analyze the pull request again and update the status of the issue.
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/PBZU2Fw2k8A" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/PBZU2Fw2k8A" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Closing Issues
@@ -42,8 +41,8 @@ When there are no open issues left in the pull request, the commit status on Git
 
 Reviewers can comment on issues directly onto the GitHub pull request page by clicking on the issue’s **Comment on GitHub** button. You will need to give Sider authorization the first time you perform this action.
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/16MuYzj_Ml0" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/16MuYzj_Ml0" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## Requesting Feedback
@@ -76,6 +75,6 @@ You can also change this restriction to only users with admin permissions. See [
 
 You can close all issues or filtered issues at once by clicking on **More** and selecting **Close all filtered issues**.
 
-<div class="Video">
- <iframe class="Video__iframe" src="https://www.youtube.com/embed/vnwf6pVLtWM" frameborder="0" allowfullscreen></iframe>
+<div className="Video">
+  <iframe src="https://www.youtube.com/embed/vnwf6pVLtWM" frameBorder="0" allowFullScreen></iframe>
 </div>

@@ -1,13 +1,16 @@
 ---
 id: tslint
-title: TSLint (unsupported)
-hide_title: true
+title: TSLint
 ---
 
-# TSLint (unsupported)
+# TSLint
 
-> **UNSUPPORTED**: We have dropped the support for TSLint on July 8, 2021. Please migrate to [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint).
-> [`tslint-to-eslint-config`](https://www.npmjs.com/package/tslint-to-eslint-config) might help your migration.
+:::danger
+
+We have dropped the support for TSLint on **July 8, 2021**. Please migrate to [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint).
+[`tslint-to-eslint-config`](https://www.npmjs.com/package/tslint-to-eslint-config) might help your migration.
+
+:::
 
 | Supported Version       | Language   | Website                           |
 | ----------------------- | ---------- | --------------------------------- |
@@ -95,10 +98,18 @@ linter:
       - rules/AnotherCustomRule
 ```
 
-> Note that you need to use TSLint since version **5.12.0** to set the `rules-dir` option as an array.
+:::note
+
+Note that you need to use TSLint since version **5.12.0** to set the `rules-dir` option as an array.
+
+:::
 
 ### `type-check`
 
 This option controls whether to enable type checking when running TSLint. If you want type checking, set this to `true`.
 
-> Note that the option is **deprecated** since TSLint version **5.8.0**. TSLint no longer have done type checking since it. For more details about the change, see [the pull request](https://github.com/palantir/tslint/pull/3322).
+:::note
+
+Note that the option is **deprecated** since TSLint version **5.8.0**. TSLint no longer have done type checking since it. For more details about the change, see [the pull request](https://github.com/palantir/tslint/pull/3322).
+
+:::

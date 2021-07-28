@@ -2,12 +2,15 @@
 id: ktlint
 title: ktlint
 sidebar_label: ktlint (beta)
-hide_title: true
 ---
 
 # ktlint
 
-> This is **BETA**. The behavior of this tool might change.
+:::note
+
+This is **BETA**. The behavior of this tool might change.
+
+:::
 
 | Supported Version | Language | Website                  |
 | ----------------- | -------- | ------------------------ |

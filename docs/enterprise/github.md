@@ -2,14 +2,17 @@
 id: github
 title: GitHub Enterprise Server
 sidebar_label: GitHub Enterprise Server
-hide_title: true
 ---
 
 # GitHub Enterprise Server
 
 This document describes what you should configure on your GitHub Enterprise Server to integrate with Sider Enterprise.
 
-> Note that we assume your Sider Enterprise is running on `https://sider.example.com` on this page, and you should replace the hostname with the actual name.
+:::note
+
+Note that we assume your Sider Enterprise is running on `https://sider.example.com` on this page, and you should replace the hostname with the actual name.
+
+:::
 
 ## Requirements
 

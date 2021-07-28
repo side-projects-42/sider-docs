@@ -2,14 +2,17 @@
 id: rails-best-practices
 title: Rails Best Practices
 sidebar_label: Rails Best Practices (deprecated)
-hide_title: true
 ---
 
 # Rails Best Practices
 
-> **DEPRECATED**: We have deprecated the support of Rails Best Practices because of the lack of active development of the tool.
-> As alternatives, please consider using [RuboCop Rails](https://docs.rubocop.org/rubocop-rails), [HAML-Lint](./haml-lint.md), [Slim-Lint](./slim-lint.md), etc.
-> We will drop the support on **September 30, 2021**.
+:::caution
+
+We have **deprecated** the support of Rails Best Practices because of the lack of active development of the tool.
+As alternatives, please consider using [RuboCop Rails](https://docs.rubocop.org/rubocop-rails), [HAML-Lint](./haml-lint.md), [Slim-Lint](./slim-lint.md), etc.
+We will drop the support on **September 30, 2021**.
+
+:::
 
 | Supported Version         | Language | Website                         |
 | ------------------------- | -------- | ------------------------------- |
