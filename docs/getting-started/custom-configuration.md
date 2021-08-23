@@ -328,9 +328,9 @@ For example:
 linter:
   clang_tidy:
     include-path:
-      - myinclude
-      - foo/include
-      - /usr/include/libfastjson
+      - "myinclude"
+      - "foo/include"
+      - "/usr/include/libfastjson"
 ```
 
 Sider treats this option as a compilation option `-I` and passes it as command-line arguments internally. For example, Sider executes [Clang-Tidy](../tools/cplusplus/clang-tidy.md) like this:
@@ -370,9 +370,9 @@ In order to use this option, add it as a top-level in `sider.yml` like this:
 ```yaml
 branches:
   exclude:
-    - main
-    - development
-    - another_branch
+    - "main"
+    - "development"
+    - "another_branch"
 ```
 
 With the above setting, Sider will ignore `main`, `development` and `another_branch` branches when these branches (pull requests) are updated or opened. That is, even if these branches have any changes, Sider will not send commit status and not review them.
@@ -391,8 +391,8 @@ You can also use regular expressions as the `exclude` pattern:
 ```yaml
 branches:
   exclude:
-    - /^release-.*$/
-    - /^dependabot/
+    - "/^release-.*$/"
+    - "/^dependabot/"
 ```
 
 In the above example, all branches such as `release-20190304` or `dependabot/bundler/aws-partitions-1.202.0` are ignored.
