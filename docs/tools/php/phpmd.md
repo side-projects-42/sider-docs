@@ -8,7 +8,7 @@ sidebar_label: PHPMD
 
 | Supported Version | Language | Website           |
 | ----------------- | -------- | ----------------- |
-| 2.10.1            | PHP      | https://phpmd.org |
+| 2.10.2            | PHP      | https://phpmd.org |
 
 **PHPMD** is a static analysis tool focused on detecting code smells and possible errors in your PHP code.
 

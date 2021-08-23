@@ -8,7 +8,7 @@ sidebar_label: JSHint
 
 | Supported Version | Language   | Website            |
 | ----------------- | ---------- | ------------------ |
-| 2.13.0            | JavaScript | https://jshint.com |
+| 2.13.1            | JavaScript | https://jshint.com |
 
 **JSHint** is a static analysis tool to detect errors and potential problems in JavaScript code.
 

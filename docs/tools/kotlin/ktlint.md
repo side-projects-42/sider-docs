@@ -14,7 +14,7 @@ This is **BETA**. The behavior of this tool might change.
 
 | Supported Version | Language | Website                  |
 | ----------------- | -------- | ------------------------ |
-| 0.41.0            | Kotlin   | https://ktlint.github.io |
+| 0.42.1            | Kotlin   | https://ktlint.github.io |
 
 **ktlint** is a linter with built-in formatter for [Kotlin](https://kotlinlang.org) programming language.
 
