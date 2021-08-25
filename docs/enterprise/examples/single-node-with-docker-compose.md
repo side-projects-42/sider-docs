@@ -54,7 +54,7 @@ DOCKER_RUNNERS_CONFIG='{
 "s3_endpoint": "http://minio:9000",
 "aws_access_key_id": "{your_credential}",
 "aws_secret_access_key": "{your_credential}",
-"network_mode": "bridge"
+"network_mode": "sider-network"
 }'
 ```
 
@@ -77,6 +77,8 @@ services:
       - mysql
       - redis
       - minio
+    networks:
+      - sider-network
   sideci_worker:
     image: "docker.sider.review/sideci_onprem:release-202107.0"
     env_file:
@@ -89,6 +91,8 @@ services:
       - mysql
       - redis
       - minio
+    networks:
+      - sider-network
   mysql:
     image: "mysql:5.7"
     restart: always
@@ -96,12 +100,16 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: "true"
     volumes:
       - "mysql_data:/var/lib/mysql"
+    networks:
+      - sider-network
   redis:
     image: "redis:5"
     command: ["redis-server", "--bind", "0.0.0.0", "--appendonly", "yes"]
     restart: always
     volumes:
       - "redis_data:/data"
+    networks:
+      - sider-network
   minio:
     image: "minio/minio"
     command: ["server", "/data"]
@@ -111,11 +119,17 @@ services:
       MINIO_SECRET_KEY: secret-key
     volumes:
       - "minio_data:/data"
+    networks:
+      - sider-network
 
 volumes:
   mysql_data:
   redis_data:
   minio_data:
+
+networks:
+  sider-network:
+    name: sider-network
 ```
 
 ## Run Services
