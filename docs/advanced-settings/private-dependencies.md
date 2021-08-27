@@ -16,7 +16,7 @@ Let’s check the following steps out.
 :::tip
 
 Do analysis tools (e.g., ESLint or RuboCop) require your private dependencies?
-If not, please consider using the [`dependencies` option](../getting-started/custom-configuration.md#linteranalyzer_iddependencies) of `sider.yml` instead.
+If not, please consider using the [`dependencies`](../getting-started/custom-configuration.md#linteranalyzer_iddependencies) option of `sider.yml` instead.
 
 :::
 
