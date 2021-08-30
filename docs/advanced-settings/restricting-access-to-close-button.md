@@ -10,6 +10,6 @@ Users with admin permissions for a repository can restrict closing issues only t
 
 ![Settings](../assets/restricting-access-to-close-button-settings.png)
 
-After enabling this for all users who have written permissions, the **Close** button will be disabled like the following:
+After enabling the above option, the **Close** button will be disabled for all users without admin permissions, like the following:
 
 ![Disabled](../assets/restricting-access-to-close-button-disabled.png)
