@@ -341,6 +341,46 @@ $ clang-tidy test.cpp -- -Imyinclude -Ifoo/include -I/usr/include/libfastjson
 
 If you omit this option, Sider searches for header files that are part of your project and applies the directories of found files to the include search path.
 
+## `linter.metrics.ignore`
+
+_type:_ `string[]`
+
+This option allows you to filter out certain files or directories from being analyzed by the metrics runners (`Metrics File Info`, `Metrics Complexity` and `Metrics Code Clone`). The format of each item follows [gitignore(5)](https://git-scm.com/docs/gitignore).
+
+In order to use this option, add it in `sider.yml` like this:
+
+```yaml
+linter:
+  metrics:
+    ignore:
+      - "foo/**"
+      - "bar.java"
+```
+
+### Default values
+
+Following directories and files are filtered out by default.
+
+- \*\*/node_modules/\*\*
+- \*\*/vendor/\*\*
+- \*.map
+- \*.min.\*
+
+### Inverting values
+
+While this option is used to specify files or directories filtered out from being analyzed, you can also specify what files or directories are analyzed using the `!` prefix character.
+
+An example below filters out all files under the `foo` directory, but the file named `foo/bar.java` will be analyzed exceptionally. The default `**/vendor/**` value is overridden, and all files under the `vendor` directory will be analyzed.
+
+```yaml
+linter:
+  metrics:
+    ignore:
+      - "foo/**"
+      - "!foo/bar.java"
+      - "!**/vendor/**"
+```
+
 ## `ignore`
 
 _type:_ `string[]`
