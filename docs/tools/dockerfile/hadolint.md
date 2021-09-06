@@ -8,7 +8,7 @@ sidebar_label: hadolint
 
 | Supported Version | Language   | Website                             |
 | ----------------- | ---------- | ----------------------------------- |
-| 2.6.0             | Dockerfile | https://hadolint.github.io/hadolint |
+| 2.7.0             | Dockerfile | https://hadolint.github.io/hadolint |
 
 **hadolint** is a [Dockerfile](https://docs.docker.com/engine/reference/builder) linter that helps you build [best practice](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) Docker images.
 

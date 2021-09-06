@@ -14,7 +14,7 @@ This is **BETA**. The behavior of this tool might change.
 
 | Version                   | Language    | Website                          |
 | ------------------------- | ----------- | -------------------------------- |
-| 0.20.2+ (default: 0.22.0) | Slim (Ruby) | https://github.com/sds/slim-lint |
+| 0.20.2+ (default: 0.22.1) | Slim (Ruby) | https://github.com/sds/slim-lint |
 
 **Slim-Lint** is a static analysis tool to help keep your [Slim](http://slim-lang.com) files clean and readable.
 In addition to Slim-specific style and lint checks, it can check them by integrated RuboCop rules.
