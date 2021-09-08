@@ -63,7 +63,7 @@ linter:
 
 ### `minimum-tokens`
 
-The minimum token length which should be reported as a duplicate.
+The minimum number of tokens which should be reported as a duplicate.
 
 ### `target`
 
