@@ -75,7 +75,6 @@ The options you can specify in `sider.yml` are grouped into the following catego
    - [`linter.shellcheck`](../tools/shellscript/shellcheck.md)
    - [`linter.stylelint`](../tools/css/stylelint.md)
    - [`linter.swiftlint`](../tools/swift/swiftlint.md)
-   - [`linter.tslint`](../tools/javascript/tslint.md)
    - [`linter.tyscan`](../tools/javascript/tyscan.md)
 2. Non analyzer-specific options
    - [`ignore`](#ignore)
