@@ -4107,9 +4107,9 @@ hoist-non-react-statics@^3.1.0:
   dependencies:
     react-is "^16.7.0"
 
-hosted-git-info@^3.0.0:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-3.0.8.tgz#6e35d4cc87af2c5f816e4cb9ce350ba87a3f370d"
+hosted-git-info@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-4.0.2.tgz#5e425507eede4fea846b7262f0838456c4209961"
   dependencies:
     lru-cache "^6.0.0"
 
@@ -5192,10 +5192,6 @@ mdast-util-to-markdown@^1.0.0:
     micromark-util-decode-string "^1.0.0"
     unist-util-visit "^4.0.0"
     zwitch "^2.0.0"
-
-mdast-util-to-string@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-1.1.0.tgz"
 
 mdast-util-to-string@^2.0.0:
   version "2.0.0"
@@ -7284,17 +7280,21 @@ remark-stringify@^10.0.0:
     mdast-util-to-markdown "^1.0.0"
     unified "^10.0.0"
 
-remark-validate-links@^10.0.4:
-  version "10.0.4"
-  resolved "https://registry.npmjs.org/remark-validate-links/-/remark-validate-links-10.0.4.tgz"
+remark-validate-links@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-11.0.1.tgz#7c608e0032fc58c664256c91791665a22e904b48"
   dependencies:
+    "@types/mdast" "^3.0.0"
     github-slugger "^1.0.0"
-    hosted-git-info "^3.0.0"
-    mdast-util-to-string "^1.0.0"
+    hosted-git-info "^4.0.0"
+    mdast-util-to-string "^3.0.0"
     propose "0.0.5"
-    to-vfile "^6.0.0"
-    trough "^1.0.0"
-    unist-util-visit "^2.0.0"
+    to-vfile "^7.0.0"
+    trough "^2.0.0"
+    unified "^10.0.0"
+    unified-engine "^9.0.0"
+    unist-util-visit "^4.0.0"
+    vfile "^5.0.0"
 
 remark@^14.0.0:
   version "14.0.1"
@@ -8118,13 +8118,6 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
-
-to-vfile@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.npmjs.org/to-vfile/-/to-vfile-6.1.0.tgz"
-  dependencies:
-    is-buffer "^2.0.0"
-    vfile "^4.0.0"
 
 to-vfile@^7.0.0:
   version "7.2.2"
