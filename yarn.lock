@@ -6984,14 +6984,14 @@ remark-gfm@^2.0.0:
     micromark-extension-gfm "^1.0.0"
     unified "^10.0.0"
 
-remark-lint-code-block-syntax@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/remark-lint-code-block-syntax/-/remark-lint-code-block-syntax-0.2.1.tgz"
+remark-lint-code-block-syntax@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/remark-lint-code-block-syntax/-/remark-lint-code-block-syntax-0.3.0.tgz#19544b64efa3d39c0a6e591dd31861fbeec03d95"
   dependencies:
     esprima "^4.0.1"
     js-yaml "^4.0.0"
-    unified-lint-rule "^1.0.5"
-    unist-util-visit "^2.0.2"
+    unified-lint-rule "^2.0.0"
+    unist-util-visit "^4.0.0"
 
 remark-lint-first-heading-level@^3.1.0:
   version "3.1.0"
@@ -8287,7 +8287,7 @@ unified-engine@^9.0.0:
     vfile-reporter "^7.0.0"
     vfile-statistics "^2.0.0"
 
-unified-lint-rule@^1.0.4, unified-lint-rule@^1.0.5, unified-lint-rule@^1.0.6:
+unified-lint-rule@^1.0.4, unified-lint-rule@^1.0.6:
   version "1.0.6"
   resolved "https://registry.npmjs.org/unified-lint-rule/-/unified-lint-rule-1.0.6.tgz"
   dependencies:
