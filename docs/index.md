@@ -109,6 +109,7 @@ This section has documents about analysis tools which Sider supports. We have an
 - [LanguageTool](./tools/others/languagetool.md)
 - [PMD CPD](./tools/others/pmd-cpd.md)
 - [Secret Scan](./tools/others/secret-scan.md)
+- [actionlint](./tools/others/actionlint.md)
 
 ## Custom Rules
 

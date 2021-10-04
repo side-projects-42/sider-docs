@@ -113,6 +113,7 @@ module.exports = {
             "tools/others/languagetool",
             "tools/others/pmd-cpd",
             "tools/others/secret-scan",
+            "tools/others/actionlint",
           ],
         },
       ],
