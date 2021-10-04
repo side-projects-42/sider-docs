@@ -68,7 +68,6 @@ The options you can specify in `sider.yml` are grouped into the following catego
    - [`linter.pmd_java`](../tools/java/pmd.md)
    - [`linter.pylint`](../tools/python/pylint.md)
    - [`linter.querly`](../tools/ruby/querly.md)
-   - [`linter.rails_best_practices`](../tools/ruby/rails-best-practices.md)
    - [`linter.reek`](../tools/ruby/reek.md)
    - [`linter.remark_lint`](../tools/markdown/remark-lint.md)
    - [`linter.rubocop`](../tools/ruby/rubocop.md)

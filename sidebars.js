@@ -31,7 +31,6 @@ module.exports = {
             "tools/ruby/brakeman",
             "tools/ruby/haml-lint",
             "tools/ruby/slim-lint",
-            "tools/ruby/rails-best-practices",
           ],
         },
         {
