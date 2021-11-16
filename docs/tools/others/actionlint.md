@@ -14,7 +14,7 @@ This is **BETA**. The behavior of this tool might change.
 
 | Supported Version | Language | Website                             |
 | ----------------- | -------- | ----------------------------------- |
-| 1.6.3             | Others   | https://github.com/rhysd/actionlint |
+| 1.6.7             | Others   | https://github.com/rhysd/actionlint |
 
 **actionlint** is a static checker for GitHub Actions workflow files.
 

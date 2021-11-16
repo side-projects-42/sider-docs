@@ -8,7 +8,7 @@ sidebar_label: Phinder
 
 | Supported Version | Language | Website                          |
 | ----------------- | -------- | -------------------------------- |
-| 0.9.2             | PHP      | https://github.com/sider/phinder |
+| 0.9.3             | PHP      | https://github.com/sider/phinder |
 
 **Phinder** is a static analysis tool that aims to make your custom rules via your YAML file.
 

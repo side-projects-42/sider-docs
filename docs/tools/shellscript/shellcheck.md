@@ -8,7 +8,7 @@ sidebar_label: ShellCheck
 
 | Supported Version | Language     | Website                    |
 | ----------------- | ------------ | -------------------------- |
-| 0.7.2             | Shell script | https://www.shellcheck.net |
+| 0.8.0             | Shell script | https://www.shellcheck.net |
 
 ShellCheck is a static analysis tool to find bugs in shell script code. It gives warnings and suggestions.
 

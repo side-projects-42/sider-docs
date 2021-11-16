@@ -8,7 +8,7 @@ sidebar_label: PHP_CodeSniffer
 
 | Supported Version | Language | Website                                      |
 | ----------------- | -------- | -------------------------------------------- |
-| 3.6.0             | PHP      | https://pear.php.net/package/PHP_CodeSniffer |
+| 3.6.1             | PHP      | https://pear.php.net/package/PHP_CodeSniffer |
 
 **PHP_CodeSniffer** is a style checker to enforce a defined set of PHP coding standards.
 

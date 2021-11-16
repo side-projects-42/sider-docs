@@ -8,7 +8,7 @@ sidebar_label: Flake8
 
 | Supported Version | Language | Website                  |
 | ----------------- | -------- | ------------------------ |
-| 3.9.2             | Python   | https://flake8.pycqa.org |
+| 4.0.1             | Python   | https://flake8.pycqa.org |
 
 **Flake8** is a linter to check the style and quality of Python code.
 
