@@ -8,7 +8,7 @@ sidebar_label: CoffeeLint
 
 | Supported Version       | Language     | Website                      |
 | ----------------------- | ------------ | ---------------------------- |
-| 4.0.0+ (default: 5.2.0) | CoffeeScript | https://coffeelint.github.io |
+| 4.0.0+ (default: 5.2.3) | CoffeeScript | https://coffeelint.github.io |
 
 **CoffeeLint** is a style checker that helps keep CoffeeScript code clean and consistent.
 

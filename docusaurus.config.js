@@ -35,7 +35,7 @@ module.exports = {
       items: [
         { to: "getting-started/setup", label: "Getting Started" },
         { to: "enterprise/index", label: "Enterprise" },
-        { to: "news/2021", label: "News" },
+        { to: "news/2022", label: "News" },
         { href: "https://sider.review/", label: "Sider Top", position: "right" },
       ],
     },

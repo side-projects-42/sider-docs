@@ -186,7 +186,7 @@ module.exports = {
     {
       type: "category",
       label: "News",
-      items: ["news/2021", "news/2020", "news/2019"],
+      items: ["news/2022", "news/2021", "news/2020", "news/2019"],
     },
   ],
 };

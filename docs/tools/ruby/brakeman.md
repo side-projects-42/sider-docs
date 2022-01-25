@@ -8,7 +8,7 @@ sidebar_label: Brakeman
 
 | Supported Version       | Language | Website                     |
 | ----------------------- | -------- | --------------------------- |
-| 4.0.0+ (default: 5.1.2) | Ruby     | https://brakemanscanner.org |
+| 4.0.0+ (default: 5.2.0) | Ruby     | https://brakemanscanner.org |
 
 **Brakeman** is a static analysis tool to detect security issues in Ruby on Rails applications.
 

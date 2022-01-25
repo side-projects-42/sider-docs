@@ -8,7 +8,7 @@ sidebar_label: remark-lint
 
 | Supported Version          | Language | Website                                 |
 | -------------------------- | -------- | --------------------------------------- |
-| 7.0.0+ (default: 10.0.0) ¹ | Markdown | https://github.com/remarkjs/remark-lint |
+| 7.0.0+ (default: 10.0.1) ¹ | Markdown | https://github.com/remarkjs/remark-lint |
 
 **remark-lint** is a pluggable linter for Markdown. It includes many rules to enforce consistency and detect possible mistakes.
 
