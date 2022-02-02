@@ -20,6 +20,9 @@ module.exports = {
         theme: {
           customCss: [require.resolve("./src/css/custom.css")],
         },
+        googleAnalytics: {
+          trackingID: "UA-48995135-1",
+        },
       },
     ],
   ],
@@ -71,9 +74,6 @@ module.exports = {
           ],
         },
       ],
-    },
-    googleAnalytics: {
-      trackingID: "UA-48995135-1",
     },
     algolia: {
       apiKey: "049a35b7a22ba1310e14ad116d32c18b",
