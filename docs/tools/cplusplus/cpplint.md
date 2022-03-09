@@ -8,7 +8,7 @@ sidebar_label: cpplint
 
 | Supported Version | Language | Website                            |
 | ----------------- | -------- | ---------------------------------- |
-| 1.5.5             | C/C++    | https://github.com/cpplint/cpplint |
+| 1.6.0             | C/C++    | https://github.com/cpplint/cpplint |
 
 **cpplint** is a static analysis tool to check C/C++ files for style issues.
 

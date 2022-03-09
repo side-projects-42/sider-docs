@@ -8,7 +8,7 @@ sidebar_label: Checkstyle
 
 | Supported Version | Language | Website                |
 | ----------------- | -------- | ---------------------- |
-| 9.2.1             | Java     | https://checkstyle.org |
+| 10.0              | Java     | https://checkstyle.org |
 
 **Checkstyle** is a style checker for Java code and aims to enforce a coding standard.
 
