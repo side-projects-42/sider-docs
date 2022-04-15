@@ -8,7 +8,7 @@ sidebar_label: SwiftLint
 
 | Supported Version | Language | Website                           |
 | ----------------- | -------- | --------------------------------- |
-| 0.46.5            | Swift    | https://realm.github.io/SwiftLint |
+| 0.47.0            | Swift    | https://realm.github.io/SwiftLint |
 
 **SwiftLint** is a static analysis tool for Swift. It checks style and conventions, reports code metrics, and so on.
 

@@ -14,7 +14,7 @@ This is **BETA**. The behavior of this tool might change.
 
 | Supported Version | Language          | Website                  |
 | ----------------- | ----------------- | ------------------------ |
-| 5.6               | Natural languages | https://languagetool.org |
+| 5.7               | Natural languages | https://languagetool.org |
 
 **LanguageTool** is a proofreading tool for [English, French, German, and other languages](https://languagetool.org/languages).
 It finds many mistakes like grammar errors, misspells, and so on.
