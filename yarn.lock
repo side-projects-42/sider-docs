@@ -8274,9 +8274,10 @@ remark-lint-no-unused-definitions@^3.1.0:
     unist-util-generated "^2.0.0"
     unist-util-visit "^4.0.0"
 
-remark-lint@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.npmjs.org/remark-lint/-/remark-lint-9.1.0.tgz"
+remark-lint@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/remark-lint/-/remark-lint-9.1.1.tgz#58c27adc4edeca93b7ce81e2861f05cbcecef72c"
+  integrity sha512-zhe6twuqgkx/9KgZyNyaO0cceA4jQuJcyzMOBC+JZiAzMN6mFUmcssWZyY30ko8ut9vQDMX/pyQnolGn+Fg/Tw==
   dependencies:
     "@types/mdast" "^3.0.0"
     remark-message-control "^7.0.0"
